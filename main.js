@@ -8,7 +8,7 @@ let listaSpesa = [
 ]
 const listaElement = document.querySelector("ul")
 
-//Creo ciclo//
+//Creo ciclo for//
 for (let i=0; i<listaSpesa.length; i++) {
     
     const element =listaSpesa[i];
@@ -17,7 +17,6 @@ for (let i=0; i<listaSpesa.length; i++) {
 }
 
 //MILESTONE 2: ciclo while//
-
 let i = 0;
 while (i< listaSpesa.length) {
 
